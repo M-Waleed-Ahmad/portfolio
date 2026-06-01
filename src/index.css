@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #00ffcc;
+  --bg: #000000;
+  --surface: #0a0a0a;
+  --text: #f8f8f8;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.display-font {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.hud-frame {
+  border: 1px solid rgba(0, 255, 204, 0.45);
+  background: rgba(0, 0, 0, 0.58);
+  backdrop-filter: blur(5px);
+}
+
+.panel-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.16);
+}
+
+.cursor-blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
