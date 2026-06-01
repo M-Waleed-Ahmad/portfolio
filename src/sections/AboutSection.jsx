@@ -51,7 +51,7 @@ function AboutSection({ active }) {
       </RoundedBox>
 
       <Text
-        position={[-3.3, 1.9, 0.2]}
+        position={[-3.3, 2.65, 0.2]}
         color="#00ffcc"
         fontSize={0.42}
         anchorX="left"
@@ -60,8 +60,8 @@ function AboutSection({ active }) {
         ABOUT
       </Text>
 
-      <Html transform position={[0, 0.2, 0.22]} distanceFactor={8.2} center>
-        <div className="w-[450px] max-w-[84vw] rounded border border-accent/45 bg-black/72 p-4 text-white">
+      <Html transform position={[0, -0.15, 0.22]} distanceFactor={8.2} center>
+        <div className="w-[450px] max-w-[84vw] rounded border border-accent/45 bg-black/72 p-5 pt-7 text-white">
           <p className="text-sm leading-relaxed text-white/82">
             Full-stack developer and automation engineer from Lahore, Pakistan. I build practical products,
             optimize delivery pipelines, and focus on software that ships cleanly and performs under pressure.
